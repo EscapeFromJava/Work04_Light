@@ -12,7 +12,7 @@ int main()
 	m = m * 2;
 	for (int i = 0; i < m; i++) {
 		cin >> a;
-		if (a < 1 || a>size || a==a) {
+		if (a < 1 || a>size) {
 			exit(0);
 		}
 		else if (a == 1) {
