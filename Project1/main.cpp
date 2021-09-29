@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-	int m; // кол-во тоннелей
-	int a; // вводимые перекрестки
-	int size = 0; // размер массива (кол-во перекрестков)
+	int m; // kol-vo tonneley
+	int a; // perekrestki
+	int size = 0; // razmer massiva (kol-vo perekrestkov)
 	cin >> size >> m;
-	int* arr = new int [size] {}; //динамический массив с размерностью, указанной выше и заполненный 0-ми
+	int* arr = new int [size] {}; //dinam massiv s razmernostyu, ukazannoy viwe i zapolnenniy 0
 	m = m * 2;
 	for (int i = 0; i < m; i++) {
 		cin >> a;
